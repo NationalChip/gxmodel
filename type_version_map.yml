@@ -1,0 +1,38 @@
+# 说明
+#     1. "晾衣架专用模型_V501" 该部分 和云平台对应，不可修改
+#     2. version number 这部分，可以任意增加修改，主要是config.yml 锁定该版本路径
+#           生效在代码内部中是字符最长的那个，这列表内容是可以用来锁定模型路径的关键字
+#     3. model path 内容不可修改
+#     4. support chip series 表示可以支持的芯片系列
+芯片系列表:
+    grus:
+        - GX8002D
+        - GX8003A
+    apus:
+        - GX8302B
+    leo:
+        - GX8008C
+
+模型映射表:
+    通用模型_V103:
+        version number:
+            - v1.0.3
+            - universal_130K_model_v1.0.3
+        support chip series:
+            - grus
+            - leo
+        model path:
+            "grus/universal_130K_model/v1.0.3"
+
+
+    通用模型_V055:
+        version number:
+            - v0.5.5
+            - universal_450K_model_v0.5.5
+        support chip series:
+            - grus
+            - leo
+        model path:
+            "grus/universal_450K_model/v0.5.5"
+
+

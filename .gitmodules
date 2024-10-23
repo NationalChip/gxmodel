@@ -1,0 +1,8 @@
+[submodule "grus/universal_130K_model"]
+	path = grus/universal_130K_model
+	url = git@github.com:NationalChip/universal_130K_model.git
+	branch = main
+[submodule "grus/universal_450K_model"]
+	path = grus/universal_450K_model
+	url = git@github.com:NationalChip/universal_450K_model.git
+	branch = main
